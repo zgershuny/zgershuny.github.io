@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zoe Gershuny | The Journey</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style type="text/css"></style>
+</head>
+<body>
+
+<!--Navbar-->
+<!--CITATION: https://getbootstrap.com/docs/4.0/components/navbar/-->
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color: #2c3e50;">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a href="index.html" class="navbar-brand"><i class="fa fa-home" aria-hidden="true"></i> Hello, World!</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <!--About My Journey, resume-->
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><span class="sr-only">(current)</span>About Me</a>
+        </li>
+        <!--Projects, resources that helped me-->
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <!--links to where I am, contact me, subscribe-->
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <!--Go to GitHub-->
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/zgershuny/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+      </li>
+      <!--Go to LinkedIn-->
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/zgershuny"><i class="fab fa-github" aria-hidden="true"></i></a>
+      </li>
+      <!--Email Me-->
+      <li class="nav-item">
+        <a class="nav-link" href="mailto:zgershuny@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+      </li>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1><i class="far fa-user"></i> About Me</h1>
+    <p>I'm just getting started...</p>
+  </div>
+<!--Scrollbar Citation: https://getbootstrap.com/docs/4.3/components/scrollspy/#fat-->
+  <!--Dropdown Citation: https://getbootstrap.com/docs/4.3/components/dropdowns/-->
+    <nav id="navbar-example2" class="navbar navbar-lightgray">
+      <a class="navbar-brand">Points in Journey</a>
+      <ul class="nav nav-pills">
+        <a class="button btn-info" href="resume.pdf" download="resume.pdf" role="button"><i class="fas fa-download"></i>Resume</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#Early Interests">Early Interests</a>
+            <a class="dropdown-item" href="#Sparks">Sparks</a>
+            <a class="dropdown-item" href="#Fireworks">Fireworks</a>
+            <a class="dropdown-item" href="#Capstone">Capstone</a>
+            <a class="dropdown-item" href="#OSU">OSU</a>
+            <a class="dropdown-item" href="#Data">Data</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <div class="container-fluid">
+      <h4 id="Early Interests">Early Interests</h4>
+      <p>I've always been interested in computers. I did some basic coding in high school such as HTML and lego robotics.
+        I had so many interests at the time, and the school did not offer opportunities to build on the skills I learned.
+        In college, I was exhausted from studying AP Biology and did not want to pursue a degree in a science-related field
+        even though I was always fascinated by technology and science. I loved and double majored in History and Government.</p>
+      <h4 id="Sparks">Sparks</h4>
+      <p>I did some internships for NYC elected officials and decided that I would prefer to work for the NYC government than
+        at other levels because I thought I could have the most positive and direct impact because the issues are at the
+        local level. Within a year I started working for a NYC agency, I was inspired by my senior supervisor to build my own
+        computer. He built his and provided some advice. I renewed my interst in computers, especially about hardware since
+        I did some tinkering as a child when I installed a graphics card and cleaned some fans. I thought about studying to
+        get a COMPTIA+ certificate and start a career as a IT Technician in the IT Department, but I was not interested enough to find
+        myself committed to the studies. Around this time, I started my Masters in Public Administration.</p>
+      <h4 id="Fireworks">Fireworks</h4>
+      <p>What really set off the fireworks was when I got into building circuits with kits and scratch from Adafruit. I tried to make
+        a Gps Step Tracker for my parents' dog but the code did not work. It was in C, so I started to teach myself C from
+        Harvard's CS50 on EDX.org. Never finished because of my studies and jumped over to MIT's Introductory class in Python.
+        Some day, I'll finish that GPS step tracker!</p>
+      <h4 id="Capstone">Capstone</h4>
+      <p>At some point halfway through my master's program, I got a new position within my agency with increased responsibilities.
+        My agency released a new system called DYCD Connect, and I became very interested in governments' websites and
+        database systems. My capstone was about the people's experience using government websites and compare that to
+        non profit and the private sector. I learned that I wanted to be more involved in the government's work to better
+        its technological systems so that the quality of services are improved for the people.</p>
+      <h4 id="OSU">OSU</h4>
+      <p>I decided to enroll in OSU Computer Science program to assist me in developing required skills needed to achieve my
+        career transition. I can bring my experience working as a Program Manager who experienced at the front level to understand
+        what the systems should be doing and why to make it more friendly for everyone.</p>
+      <h4 id="Data">Data</h4>
+      <p>Then, with DYCD Connect, I became really interested in Data Science/Analytics. I developed questions, ran queries
+        and reports, analyzed the data, created a data visualization on PowerPoint, and presented to an audience up to forty
+        people.</p>
+    </div>
+  </div>
+</div>
+
+<!--ADD TWO PHOTOS OF YOUR CATS-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
